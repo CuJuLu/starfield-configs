@@ -1,0 +1,2 @@
+;Stop NPCs from stealing player kills.
+setgs fXPDeathRewardHealthThreshold 0.001
