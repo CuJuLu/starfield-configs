@@ -1,2 +1,30 @@
-;Stop NPCs from stealing player kills.
+;----------GENERAL GAMEPLAY----------
+
+; [Vanilla = 0.25] Lowers player damage contribution requirement to recieve XP from enemys when killed by a follower. Duplicate line is to ensure the first bat gets loaded.
 setgs fXPDeathRewardHealthThreshold 0.001
+setgs fXPDeathRewardHealthThreshold 0.001
+
+; The following will add more visual gun shell casings.
+; [Vanilla = 5] Affect how long casings stay visable.
+SetGameSetting fGunShellLifetime 6500
+; [Vanilla = 25] Affects how many casings you see at once.
+SetGameSetting iDebrisMaxCount 6500
+; [Vanilla = 512] Affects how far you can see the casings.
+SetGameSetting fGunShellCameraDistance 35000.000000
+
+;----------STEALTH GAMEPLAY----------
+
+; [Vanilla = 1.25] Exterior modifier for sneaking, lower value = lower exterior NPC detection.
+setgs fSneakExteriorDistanceMult 1.2
+
+; [Vanilla = 190] NPC Detection View Cone, lower value = lower view cone.
+setgs fDetectionViewCone 165
+
+; [Vanilla = 1] Multiplier for sound related stealth, lower value = lower sound produced.
+setgs fSneakSoundsMult 0.9
+
+; [Vanilla = 0.4] Multiplier for sound related stealth when the player is out of sight, lower value = lower sound produced.
+setgs fSneakSoundLosMult 0.3
+
+; [Vanilla 1] Multiplier for how much equipment weight affects the sound made, lower value = lower sound produced based on equipment weight.
+setgs fSneakEquippedWeightMult 0.9
