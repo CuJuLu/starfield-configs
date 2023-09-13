@@ -28,3 +28,37 @@ setgs fSneakSoundLosMult 0.3
 
 ; [Vanilla 1] Multiplier for how much equipment weight affects the sound made, lower value = lower sound produced based on equipment weight.
 setgs fSneakEquippedWeightMult 0.9
+
+;----------COMPANION STEALTH----------
+
+; [Vanilla = 1] Changes the agility stat for the folloing NPCs so they wont be detected while in stealth.
+
+;Adoring Fan
+1631C5.setav Agility 1000
+
+;Andreja
+59A9.setav Agility 1000
+
+;Barrett
+5788.setav Agility 1000
+
+;Gideon
+15064.setav Agility 1000
+
+;Heller
+563C.setav Agility 1000
+
+;Lin
+5639.setav Agility 1000
+
+;Sam Coe
+29D488.setav Agility 1000
+
+;Sarah Morgan
+5986.setav Agility 1000
+
+;Simeon Bankowski
+15063.setav Agility 1000
+
+;Vasco
+57BE.setav Agility 1000
