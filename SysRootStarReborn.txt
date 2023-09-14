@@ -1,64 +1,103 @@
-;----------GENERAL GAMEPLAY----------
+;;----------PROGRESSION SETTINGS----------;;
 
-; [Vanilla = 0.25] Lowers player damage contribution requirement to recieve XP from enemys when killed by a follower. Duplicate line is to ensure the first bat gets loaded.
-setgs fXPDeathRewardHealthThreshold 0.001
+;;[Vanilla = 1] Changes the base XP gain percentage. Duplicate line is to ensure the first bat gets loaded.
+setgs fXPModBase 1.25
+setgs fXPModBase 1.25
+
+;;Cooking XP
+setgs fCookingExpBase 2
+setgs fCookingExpMax = 35
+setgs fCookingExpMult = 0.075
+
+;;Lockpick XP
+setgs fLockpickXPRewardEasy 15 
+setgs fLockpickXPRewardAverage 35
+setgs fLockpickXPRewardHard 60
+setgs fLockpickXPRewardVeryHard 120
+
+;;Mine Disarm XP
+setgs iMineDisarmExperience = 25
+
+;;Research XP
+setgs fResearchExpBase 2
+setgs fResearchExpMax 50
+setgs fResearchExpMult 0.075
+
+;;Speech Success XP
+setgs fSpeechChallengeSuccessXP 50
+
+;;Workbench XP
+setgs fWorkbenchExperienceBase 2
+setgs fWorkbenchExperienceMax = 50
+setgs fWorkbenchExperienceMult = 0.075
+
+;;Discovery XP
+setgs iXPRewardDiscoverMapMarker 50 
+setgs iXPRewardDiscoverSecretArea 250
+
+
+;----------GENERAL GAMEPLAY----------;;
+
+;;[Vanilla = 0.25] Lowers player damage contribution requirement to recieve XP from enemys when killed by a follower.
 setgs fXPDeathRewardHealthThreshold 0.001
 
-; The following will add more visual gun shell casings.
-; [Vanilla = 5] Affect how long casings stay visable.
+;;The following will add more visual gun shell casings.
+;;[Vanilla = 5] Affect how long casings stay visable.
 SetGameSetting fGunShellLifetime 6500
-; [Vanilla = 25] Affects how many casings you see at once.
+;;[Vanilla = 25] Affects how many casings you see at once.
 SetGameSetting iDebrisMaxCount 6500
-; [Vanilla = 512] Affects how far you can see the casings.
+;;[Vanilla = 512] Affects how far you can see the casings.
 SetGameSetting fGunShellCameraDistance 35000.000000
 
-;----------STEALTH GAMEPLAY----------
 
-; [Vanilla = 1.25] Exterior modifier for sneaking, lower value = lower exterior NPC detection.
+;;----------STEALTH GAMEPLAY----------;;
+
+;;[Vanilla = 1.25] Exterior modifier for sneaking, lower value = lower exterior NPC detection.
 setgs fSneakExteriorDistanceMult 1.2
 
-; [Vanilla = 190] NPC Detection View Cone, lower value = lower view cone.
+;;[Vanilla = 190] NPC Detection View Cone, lower value = lower view cone.
 setgs fDetectionViewCone 165
 
-; [Vanilla = 1] Multiplier for sound related stealth, lower value = lower sound produced.
+;;[Vanilla = 1] Multiplier for sound related stealth, lower value = lower sound produced.
 setgs fSneakSoundsMult 0.9
 
-; [Vanilla = 0.4] Multiplier for sound related stealth when the player is out of sight, lower value = lower sound produced.
+;;[Vanilla = 0.4] Multiplier for sound related stealth when the player is out of sight, lower value = lower sound produced.
 setgs fSneakSoundLosMult 0.3
 
-; [Vanilla 1] Multiplier for how much equipment weight affects the sound made, lower value = lower sound produced based on equipment weight.
+;;[Vanilla 1] Multiplier for how much equipment weight affects the sound made, lower value = lower sound produced based on equipment weight.
 setgs fSneakEquippedWeightMult 0.9
 
-;----------COMPANION STEALTH----------
 
-; [Vanilla = 1] Changes the agility stat for the folloing NPCs so they wont be detected while in stealth.
+;;----------COMPANION STEALTH----------;;
 
-;Adoring Fan
+;;[Vanilla = 1] Changes the agility stat for the folloing NPCs so they wont be detected while in stealth.
+
+;;Adoring Fan
 1631C5.setav Agility 1000
 
-;Andreja
+;;Andreja
 59A9.setav Agility 1000
 
-;Barrett
+;;Barrett
 5788.setav Agility 1000
 
-;Gideon
+;;Gideon
 15064.setav Agility 1000
 
-;Heller
+;;Heller
 563C.setav Agility 1000
 
-;Lin
+;;Lin
 5639.setav Agility 1000
 
-;Sam Coe
+;;Sam Coe
 29D488.setav Agility 1000
 
-;Sarah Morgan
+;;Sarah Morgan
 5986.setav Agility 1000
 
-;Simeon Bankowski
+;;Simeon Bankowski
 15063.setav Agility 1000
 
-;Vasco
+;;Vasco
 57BE.setav Agility 1000
