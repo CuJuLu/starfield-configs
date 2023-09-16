@@ -35,6 +35,9 @@ setgs fWorkbenchExperienceMult 0.075
 setgs iXPRewardDiscoverMapMarker 50 
 setgs iXPRewardDiscoverSecretArea 250
 
+;;[Vanilla = 4] Lowers the required unlocks per row, this is cumulative.
+setgs iPerkSkillGroupUnlockTargetNumber 3
+
 
 ;----------GENERAL GAMEPLAY----------;;
 
