@@ -52,6 +52,9 @@ SetGameSetting iDebrisMaxCount 6500
 ;;[Vanilla = 512] Affects how far you can see the casings.
 SetGameSetting fGunShellCameraDistance 35000.000000
 
+;;[Vanilla = 0] This changes the horizontal boost percentage for boost packs.
+Player.SetAV BoostpackHorizontalPercentage 1.7
+
 
 ;;----------STEALTH GAMEPLAY----------;;
 
