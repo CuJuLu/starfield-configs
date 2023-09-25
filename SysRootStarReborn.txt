@@ -5,34 +5,39 @@ setgs fXPModBase 1.25
 setgs fXPModBase 1.25
 
 ;;Cooking XP
+;;[Vanilla = 1]
 setgs fCookingExpBase 2
+;;[Vanilla = 10]
 setgs fCookingExpMax 35
+;;[Vanilla = 0.01]
 setgs fCookingExpMult 0.075
 
 ;;Lockpick XP
-setgs fLockpickXPRewardEasy 15 
+;;[Vanilla = 5]
+setgs fLockpickXPRewardEasy 15
+;;[Vanilla = 10]
 setgs fLockpickXPRewardAverage 35
+;;[Vanilla = 15]
 setgs fLockpickXPRewardHard 60
+;;[Vanilla = 20]
 setgs fLockpickXPRewardVeryHard 120
 
 ;;Mine Disarm XP
+;;[Vanilla = 5]
 setgs iMineDisarmExperience 25
 
-;;Research XP
-setgs fResearchExpBase 2
-setgs fResearchExpMax 50
-setgs fResearchExpMult 0.075
-
-;;Speech Success XP
-setgs fSpeechChallengeSuccessXP 50
-
 ;;Workbench XP
+;;[Vanilla = 1]
 setgs fWorkbenchExperienceBase 2
+;;[Vanilla = 20]
 setgs fWorkbenchExperienceMax 50
+;;[Vanilla = 0.01]
 setgs fWorkbenchExperienceMult 0.075
 
 ;;Discovery XP
-setgs iXPRewardDiscoverMapMarker 50 
+;;[Vanilla = 20]
+setgs iXPRewardDiscoverMapMarker 50
+;;[Vanilla = 20]
 setgs iXPRewardDiscoverSecretArea 250
 
 ;;[Vanilla = 4] Lowers the required unlocks per row, this is cumulative.
